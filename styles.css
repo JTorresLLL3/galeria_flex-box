@@ -18,10 +18,9 @@ body {
 
 .image {
 display: flex;
-width: 45px;
+width: 100px;
+height: 100px;
 float: left;
-justify-content: space-between;
-margin-right: 140px;
 }
 
 nav ul {
@@ -43,18 +42,17 @@ nav ul li a {
 }
 
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 40px;
+    margin-right: 140px;
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 250px;
+    height: 250px;
 }
 
 .image-box {
-    width: 200px;
-    height: 150px;
-    background-color: #d0d0d0;
-    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .footer {
